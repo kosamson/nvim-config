@@ -8,6 +8,10 @@ vim.api.nvim_set_hl(0, "NvimTreeGitRenamed", { fg = "#784212" })
 return {
   diagnostics = {
     enable = true,
+    show_on_dirs = true,
+  },
+  filters = {
+    git_ignored = false,
   },
   renderer = {
     icons = {
