@@ -42,7 +42,6 @@ return {
     },
   },
   numhl = true,
-  linehl = true,
   signs_staged_enable = true,
   current_line_blame = true,
 }
