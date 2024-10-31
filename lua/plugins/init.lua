@@ -64,4 +64,19 @@ return {
       return require "configs.nvimtree"
     end,
   },
+
+  {
+
+    "richardbizik/nvim-toc",
+
+    cmd = { "TOC", "TOCList" },
+
+    lazy = false,
+
+    config = function()
+      local nvimtoc = require "nvim-toc"
+
+      nvimtoc.setup {}
+    end,
+  },
 }
